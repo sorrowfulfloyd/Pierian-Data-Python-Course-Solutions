@@ -43,6 +43,7 @@ def ask_for_an_int():
         else:
             print(f'Many thanks. You succeeded to not suck for now! Num u entered was: {bruh}')
             break
+    print('Your number squared is:', bruh**2)
 
 def main():
     bruh1()
